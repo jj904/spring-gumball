@@ -47,5 +47,7 @@
 <img width="1512" alt="Screenshot 2023-05-15 at 11 19 08 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/e50d691f-c380-422e-98c4-711365bb473e">
 <img width="1512" alt="Screenshot 2023-05-15 at 11 20 38 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/75ad8c35-593c-453d-9851-ab995cda5926">
 <img width="1512" alt="Screenshot 2023-05-15 at 11 20 59 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/835e5007-e6ff-47e6-b0e8-d83e19b8c221">
+<img width="1512" alt="Screenshot 2023-05-15 at 11 40 24 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/1b24cd29-a1d9-4095-8082-4ad19d8648c4">
+<img width="1512" alt="Screenshot 2023-05-15 at 11 42 14 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/a0467762-c9cb-49dc-bb5f-06b3e31117f6">
 
 
