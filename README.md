@@ -13,7 +13,7 @@
 
 
 # CMPE 172 - Lab #10 DevOps CI/CD 
-<h2>Part1 CI Workflow</h2>
+<h2>Part1: CI Workflow</h2>
 - Building and testing Java with Gradle<br>
 <img width="1512" alt="Screenshot 2023-05-15 at 10 35 59 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/f5022d49-b1d1-4bde-8ac9-a4fd49ae8554">
 <img width="1512" alt="Screenshot 2023-05-15 at 10 28 40 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/d38de3d4-3bda-4cf8-9be4-ec99753bb556">
@@ -30,3 +30,4 @@
 
 
 
+<h2>Part2: CD Workflow</h2>
