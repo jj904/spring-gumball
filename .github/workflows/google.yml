@@ -6,7 +6,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: cmpe172    
+  GKE_CLUSTER: formal-being-379904 
   GKE_ZONE: us-central1-c  
   DEPLOYMENT_NAME: spring-gumball 
   IMAGE: spring-gumball
