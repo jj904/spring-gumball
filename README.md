@@ -31,3 +31,5 @@
 
 
 <h2>Part2: CD Workflow</h2>
+<img width="1512" alt="Screenshot 2023-05-15 at 11 01 31 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/32919f03-8f79-4133-ae1a-cf7b92489de0">
+<img width="1512" alt="Screenshot 2023-05-15 at 11 01 35 PM" src="https://github.com/jj904/spring-gumball/assets/57935131/41f25e64-dff3-4936-9e3c-d391902bde2f">
