@@ -5,7 +5,7 @@ on:
     types: [created]
 
 env:
-  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
+  PROJECT_ID: formal-being-379904
   GKE_CLUSTER: cmpe172	
   GKE_ZONE: us-central1-c  
   DEPLOYMENT_NAME: spring-gumball 
@@ -37,8 +37,8 @@ jobs:
     # Setup gcloud CLI
     - uses: google-github-actions/setup-gcloud@v0.2.0
       with:
-        service_account_key: ${{ secrets.GKE_SA_KEY }}
-        project_id: ${{ secrets.GKE_PROJECT }}
+        service_account_key: 410a7dbea6a5b9a2fe894c8b6bb06aa55c34e897
+        project_id: formal-being-379904
 
     # Configure Docker to use the gcloud command-line tool as a credential
     # helper for authentication
