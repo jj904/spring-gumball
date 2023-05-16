@@ -50,7 +50,20 @@ jobs:
       with:
         cluster_name: cmpe172
         location: us-central1-c
-        credentials: ${{ secrets.GKE_SA_KEY }}
+        credentials: {
+                        "type": "service_account",
+                        "project_id": "formal-being-379904",
+                        "private_key_id": "410a7dbea6a5b9a2fe894c8b6bb06aa55c34e897",
+                        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQClGDsWBsYfNRP3\nFrRgLDEvRjAt3ctv5O8lHRNQRkkblmjsOUIyOFOybafRar9/9gVKf4V+/plF8qD5\nDR6F6wI5igirA6tkRQgi+3yvxOTq7XibtJyCP9F6oTUo+cAHH8OvhZBL0U86Db0e\nc6RoRTsj6QcxtCxgPH2iaz7I9vdHKypiIX/L/BYeivkSqUAjQvdOP3JTyN0BxhHW\nRI1N4w0BFV5ObJ89AJifDXDQPgYcjM1rwPNLiFfTd/NAI/KQgb0ws4HDGUjc1OYe\nO3aQ+7O+yVEVA3Jp4TYAk7e0au0qAqa7ImU8fZDQqilD1GoJgoNbQDlsxaEtQZin\nzXpI6D4VAgMBAAECggEAA+vdfSE7WHmzWA7BW51u0Mi2gT8/w0cgJQcsIFZ+eMMQ\nU1yizoWQH/B51gkx/RpPXAFsHtGWTbKF/0s/+rUKpvyCIg5QeKRNr9C+GaVCYdlF\nIHY7st5MwkBobA2qA8XgKRbEIm6ZX8r8djEPs2zmr6NQZICftX7lwVNa78ZXpkPZ\nL75cX1JPQ/BG5kr2v3+P2NeoBfwvxL9IHoJJc3+vEepauTB3LOZxZQSFP9J3rNM4\nwUTuHGNm7Ce4mDBx8MJuu3UXK1RHDQRRKwUUt1gmME/2e51N7ircpVcP5ZGZdn4w\n0XqP1DFFA0Lnq/AY41GOXxq22i1CW1xGf+CDlEfyQQKBgQDhkM4C2w6ji9mujr2M\nbkjdTX7wcrXucBt9xPOGQIPCs4UTEu9ZtsqVJlxjvLS9CrBc09IMP/GvTdUpg6db\n7AqkiDWs/qCz4k3pLxStDQsIQEfwpHoo8qzYcfp+vgA1grc8MhfYv+ykXidMjNdu\ntcIjW05xTKlap9jGIEzzGdkDYQKBgQC7Xrc2OucsEwg4oASrTWmR3Eb+/t1iE0j1\n0A3yltLqU4ghZP7Ko3z/n/y3RIU4sYeyQpXJbQzi+hUsZsNamAvQNa7dhTYFMfuL\npobKequjxWJ7F6KzKzZ8szbxvj5tKbr132CITFEyv1NtcFhdr5wOvl726GBp5RPw\nWmRLtTFrNQKBgAaUqu36ZhrvYZJuJ6mJLicGs8VgE165dpPcwx4Pk8iCZEeCLel4\nI8DmNZvTTZKWVT7gDyi8VNjAdI+Zf7B22niiYK6DXzzgRVWgQgIqdz/uYCrtIYNA\nUTqfWKeJ84ecIKxo6bkxID5LYOoi0cYxF1DgwREdI3O5oeFl39jX0DUBAoGAUaZp\nsnEishstFvfscPXQDmbubUqFEKsUvUHIAjHlgYWbKepH+eganY6LYxWx9E2ws2a+\nvUMPPY37UhkKAl2FsFrkc9YL/2GTm3ya+ntQdpKaYsee9/LZ0KeMRvY/X/Sya1jH\nST3wmGu1oFg3ucO//tDIs1H6Scsw0Cmj0TYJbg0CgYAKCc7i/zBVUJZmOyVunUKN\nKgC3XsrW4nKK2L1n5qem/Gwb0pNIi3JgySB5ToglzSS6hYvep5klLVxvzA8Zll3+\n/9+06ihLTH/E3nnUvz1W04xhcNWF394YWssw6jdzJn7+GtiZeYVhnXlDtH5EWG7Q\n5Txl6erxcTnbSgT4xi0Mew==\n-----END PRIVATE KEY-----\n",
+                        "client_email": "spring-gumball@formal-being-379904.iam.gserviceaccount.com",
+                        "client_id": "100000741992972849597",
+                        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                        "token_uri": "https://oauth2.googleapis.com/token",
+                        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spring-gumball%40formal-being-379904.iam.gserviceaccount.com",
+                        "universe_domain": "googleapis.com"
+                      }
+
 
     # Build the Docker image
     - name: Build
